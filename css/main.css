@@ -35,3 +35,23 @@ header img {
 header p {
   font-size: 1.125rem;
 }
+
+nav ul {
+  font-size: 1.125rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+a:hover {
+  color: #fff;
+}
+
+nav a {
+  margin-right: 1rem;
+  padding-left: 1rem;
+  text-decoration: none;
+  color: #0074d9;
+}
